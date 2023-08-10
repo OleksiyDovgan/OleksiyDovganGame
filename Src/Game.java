@@ -8,9 +8,9 @@ public class Game {
 
         for (int i = 0; i < 3; i++) {
 
-        int youNumber = 1;
+        int youNumber = 10;
 
-        int rdm = random.nextInt(10)+1;
+        int rdm = random.nextInt(11);
 
         if(youNumber==rdm){
 
