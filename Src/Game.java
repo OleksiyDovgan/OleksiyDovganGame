@@ -6,7 +6,6 @@ public class Game {
 
         Random random = new Random();
 
-
         for (int i = 0; i < 3; i++) {
 
         int youNumber = 1;
@@ -14,7 +13,9 @@ public class Game {
         int rdm = random.nextInt(10)+1;
 
         if(youNumber==rdm){
+
             System.out.println(youNumber + " You Win");
+
             break;
 
         }
@@ -23,8 +24,6 @@ public class Game {
 
         }
 
-
-
-      //  System.out.println(rdm);
     }
+
 }
